@@ -1,0 +1,15 @@
+ 1. BIOS :BIOS stands for basic input/output system.  BIOS checks the basic hardware of  
+      machine are working properly   
+2. MBR: MBR stands for master boot record. The MBR is a small program located in the first
+     sector of the boot device  
+3. GRUB: Loads Linux kernel and initramfs into memory. GRUB(Grand Unified Bootloader) 
+   is a commonly used bootloader
+4. Kernel: The Linux kernel is the core of the operating system. It manages hardware
+    resources, provides essential services, and acts as an intermediary between 
+    hardware and software
+5. Init Process: The kernel starts the init process, marking the transition to userspace.
+6. Run Level Activation: Init or systemd activates the specified run level, initializing the 
+    corresponding services.
+
+
+
